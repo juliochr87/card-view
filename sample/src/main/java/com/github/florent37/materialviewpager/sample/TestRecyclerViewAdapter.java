@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -61,6 +62,11 @@ public class TestRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.V
                 LinearLayout linearLayout = (LinearLayout) frameLayout.findViewById(R.id.linearLayoutSmall);
                 linearLayout.addView(new Button(parent.getContext()));
                 linearLayout.addView(new Button(parent.getContext()));
+
+                TextView as = new TextView(parent.getContext());
+                as.setText("asdad");
+                linearLayout.addView(as);
+
                 return new RecyclerView.ViewHolder(view) {
                 };
             }
