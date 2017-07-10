@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/juliochr87/d3d-android-app/" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://juliochr87@bitbucket.org/juliochr87/card-view.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\jhernandez\AndroidStudioProjects" />
